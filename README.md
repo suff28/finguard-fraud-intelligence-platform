@@ -1,4 +1,4 @@
-# FinGuard: Real-Time Fraud Intelligence Platform
+# Card Fraud Detection and Alerting Platform
 
 End-to-end data engineering and AI platform for real-time credit card fraud detection.
 
@@ -207,3 +207,7 @@ finguard-fraud-intelligence-platform/
   Makefile
   requirements.txt
 ```
+
+## Validation Results
+
+A local Python scoring test on October 15, 2026 scored **10,000 simulated card transactions**, returning a fraud score and reason for every transaction. This count applies to the scoring code only. It is not a measurement of Redpanda throughput, database ingestion, API latency, or fraud detection accuracy.
